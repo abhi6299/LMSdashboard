@@ -1,0 +1,157 @@
+.outer{
+    text-align:center;
+    background-color:rgb(63, 154, 206);
+    /* border:2px solid red; */
+    width:20vw;
+    border-radius:2rem;
+    color:white;
+    font-family:sans-serif;
+    font-size:1.2rem;
+    display:inline-block;
+    height:100%;
+    margin-left:2.9%;
+    background-color:#2a7086;
+}
+.header{
+    display:flex;
+    justify-content:sapce-between;
+    /* border:2px solid red; */
+    color:white;
+    font-family:sans-serif;
+    margin-bottom:4%;
+    font-size:1.4rem;
+    font-weight: 500;
+    margin-top:5%;
+    margin-left:5%;
+    font-family: sans-serif;
+}
+.header div div{
+    margin:1%;
+}
+.hand{
+    display:inline-block;
+    width:20%;
+    /* border:2px solid black; */
+    padding-top:5%;
+}
+.lastLogin{
+    /* text-align:center; */
+    background-color:rgb(150, 213, 250);
+    /* border:2px solid red; */
+    color:white;
+    font-family:sans-serif;
+    font-size:1rem;
+    width:80%;
+    margin-left:10%;
+    margin-bottom:5%;
+    padding:1% 2% 1% 2%;
+    border-radius:8 px;
+    color:#2a7086;
+    background: #c1d6dc;
+}
+.data{
+    font-size:1.1rem;
+    /* border:2px solid black; */
+    text-align: left;
+    margin-bottom: 1%;
+}
+.dataImg{
+    width:11%;
+    background: #165568;
+    /* padding:2%; */
+    /* border:2px solid red; */
+    vertical-align: top;
+    color:white;
+    border-radius:8px;
+    margin-top:2%;
+    margin-left: 9%;
+    margin-right:5%;
+}
+.dataImg img{
+    width:100%;
+}
+.dataContent{
+    /* border:2px solid red; */
+    width:50%;
+}
+.dataArrow{
+    /* border:2px solid red; */
+}
+.dataContent{
+    color:white;
+    text-align: left;
+    font-family: sans-serif
+}
+.dataContent div:first-child{
+    font-size:0.8rem;
+}
+.dataContent div:last-child{
+    font-size:1rem;
+    font-weight: 600;
+}
+.dataArrow{
+    margin-left:10%;
+    vertical-align: top;;
+    padding-top:4%;
+}
+
+.calendarSection{
+    /* border: 2px solid red; */
+    margin-top:4%;
+    text-align: left;
+    margin-left: 9%;
+    width:80%;
+}
+
+.calendar{
+    background-color: white;
+    padding:2%;
+    color:black;
+    border-radius: 12px;
+    height:22vh;
+}
+.calendarHead{
+    color:#2a7086;
+    /* border:2px solid red; */
+    width:100%;
+}
+.calendar div{
+    display: inline-block;
+}
+.calendar div:first-child{
+    margin-left:4%;
+}
+.calendarHead div:nth-child(2n){
+    width:70%;
+    text-align: center;
+    /* border:10px solid orange; */
+    margin-left:2%;
+    margin-right: 2%;
+}
+
+.calendarDate{
+    /* border:2px solid black; */
+    width: 100%;
+    font-size: 1rem;
+    display: flex !important;
+    justify-content: space-around !important;
+    margin-top:10%;
+}
+.calendarDate div{
+    /* border:1px solid red; */
+}
+
+.date{
+    /* border:1px solid pink; */
+    margin:0;
+    padding:0;
+}
+.date div:last-child{
+    /* color:yellow; */
+    font-size:0.7rem;
+    margin:0;
+    padding:0;
+    color: #77929a;
+    position: relative;
+    top:-10px;
+}
