@@ -5,6 +5,7 @@ import Dashboard from './dashboardMain';
 import MiddleComponent from './components/middleComponent';
 import Quiz from './components/Quizzes';
 import Nav from './Nav';
+import Chat from './chat';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Dashboard></Dashboard>
         <MiddleComponent/>
         <Quiz/>
+        <Chat/>
       </div>
     </>
   )
@@ -32,11 +34,13 @@ const styles = {
     width:"100%"
   },
   content:{
-    height:"81vh", 
+    height:"80vh", 
     width:"100%",
     backgroundColor: "#edf7f9",
     marginTop:"-10%", 
     display:"flex", 
-    justifyContent:"space-around"
+    justifyContent:"space-around",
+    postion:"relative",
+    // border:"5px solid black"
   }
 }

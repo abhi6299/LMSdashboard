@@ -20,7 +20,7 @@ export default class Dashboard extends React.Component{
                     <span style={{fontSize:"1.1rem", marginLeft:"2%"}}>7.13 AM(UTC)</span>
                 </div>
                 <div className={styled.data}>
-                    <div className={styled.dataImg} style={{display:"inline-block"}}><img src='leaderboard.png'></img></div>
+                    <div className={styled.dataImg} style={{display:"inline-block"}}><img className={styled.image} src='ranking1.svg'></img></div>
                     <div className={styled.dataContent} style={{display:"inline-block"}}>
                         <div>Points Earned</div>
                         <div>6150</div>
@@ -28,7 +28,7 @@ export default class Dashboard extends React.Component{
                     <div className={styled.dataArrow} style={{display:"inline-block"}}>&gt;</div>
                 </div>
                 <div className={styled.data}>
-                    <div className={styled.dataImg} style={{display:"inline-block"}}><img src='leaderboard.png'></img></div>
+                    <div className={styled.dataImg} style={{display:"inline-block"}}><img src='ranking1.svg'></img></div>
                     <div className={styled.dataContent} style={{display:"inline-block"}}>
                         <div>Your rank</div>
                         <div>4</div>
@@ -36,7 +36,7 @@ export default class Dashboard extends React.Component{
                     <div className={styled.dataArrow} style={{display:"inline-block"}}>&gt;</div>
                 </div>
                 <div className={styled.data}>
-                    <div className={styled.dataImg} style={{display:"inline-block"}}><img src='leaderboard.png'></img></div>
+                    <div className={styled.dataImg} style={{display:"inline-block"}}><img src='ranking1.svg'></img></div>
                     <div className={styled.dataContent} style={{display:"inline-block"}}>
                         <div>Certificate Earned</div>
                         <div>6</div>

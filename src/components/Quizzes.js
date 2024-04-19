@@ -3,11 +3,11 @@ import styled from './middle.module.css';
 export default function Quiz(){
     return (
         <div className={styled.quizContainer}>
-            <div style={{height:"40%", border:"2px solid purple"}}>
+            <div style={{height:"40%"}}>
                 <h2 className={styled.quizHeading}>Live Quizzes</h2>
                 <div className={styled.liveQuizContainer}><p><i>No live Quiz yet!</i></p></div>
             </div >
-            <div style={{height:"60%", border:"1px solid orange"}}>
+            <div style={{height:"60%", paddingLeft:"1%",paddingRight:"7%"}}>
                 <h2 className={styled.quizHeading}>Assinged Quizzes</h2>
                 <div className={styled.quizPanel}>
                     <div>

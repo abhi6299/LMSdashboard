@@ -3,7 +3,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 export default function Nav(){
     return (
         <div className={styled.navContainer}>
-            <div className={styled.navIcon}><img src='./kognicsLogo.svg'></img></div>
+            <div className={styled.navIcon}><img src='kognicsLogo.jpeg'></img></div>
             <div className={styled.navOptions}>
                 <div style={{fontWeight: 600}}>Dashboard</div>
                 <div>Feed</div>
@@ -32,9 +32,9 @@ export default function Nav(){
             </div>
             <div className={styled.navImg}>
                 <div><img src='settings.png' alt=''></img></div>
-                <div><img src='leaderboard.png' alt=''></img></div>
-                <div><img src='settings.png' alt=''></img></div>
-                <div><img src='calendar.png' alt=''></img></div>
+                <div><img src='ranking1.svg' alt=''></img></div>
+                <div><img src='setting.svg' alt=''></img></div>
+                <div><img src='calendar.svg' alt=''></img></div>
                 <div><img src='https://d2s9pyuyxqivbc.cloudfront.net/profile/c1b3b49f-3889-4ecd-8f4e-e98135bf9875.png' alt=''></img></div>
             </div>
         </div>
