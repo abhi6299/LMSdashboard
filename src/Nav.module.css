@@ -10,6 +10,9 @@
     padding-top:1%;
     /* font-family: sans-serif; */
     font-weight: 100;
+    position: fixed;
+    top:0;
+    width:100%;
 }
 .navIcon{
     width:12%;
@@ -37,9 +40,30 @@
     justify-content: space-between;
     /* border:2px solid red; */
     width:60%;
+    position: relative;
+    top:-13px;
+    height: 10vh;
 }
 
+.link {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit color from parent */
+}
+.dashboard{
+    font-weight: 600;
+    height:10vh;
+}
+.dashboard div{
+    border:1px solid black;
+    position: relative;
+    top:18px;
+    color:white;
+}
+.dashboard:hover{
+    background: #c1d6dc;
+}
 
+/* ------------------------ */
 .navImg{
     display:flex;
     justify-content: space-between;

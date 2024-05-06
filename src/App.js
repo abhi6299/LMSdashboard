@@ -1,24 +1,38 @@
-import BasicExample from './NavBar';
+// import BasicExample from './NavBar';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Dashboard from './dashboardMain';
-// import 'antd/dist/antd.css';
-import MiddleComponent from './components/middleComponent';
-import Quiz from './components/Quizzes';
+
 import Nav from './Nav';
 import Chat from './chat';
+import FeedsMain from './components/feeds/feedsMain';
+import DashboardMainParent from './components/dashboard/dashboardMainParent';
+import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
+import Dashboard from './components/dashboard/dashboardLeft';
+import MiddleComponent from './components/dashboard/middleComponent';
+import Quiz from './components/dashboard/Quizzes';
 
 function App() {
   return (
     <>
-      <Nav/>
-      {/* <BasicExample/> */}
-      <div style={styles.headerImgContainer}><img style={styles.headerImg}src='headerImage.png'></img></div>
-      <div style={styles.content}>
-        <Dashboard></Dashboard>
-        <MiddleComponent/>
-        <Quiz/>
-        <Chat/>
-      </div>
+      {/* <Nav/> */}
+          {/* <BasicExample/> */}
+          {/* <div style={styles.headerImgContainer}><img style={styles.headerImg}src='headerImage.png'></img></div>
+          <div style={styles.content}>
+            <Dashboard/>
+            <MiddleComponent/>
+            <Quiz/>
+            <Chat/>
+          </div> */}
+      {/* <DashboardMainParent/> */}
+      {/* Feed */}
+        {/* <FeedsMain/> */}
+      <Router>
+          <Nav></Nav>
+          <Routes>
+            <Route path="/" element={<DashboardMainParent />} />
+            <Route path="/feeds" element={<FeedsMain />} />
+          </Routes>
+      </Router>
+      
     </>
   )
 }
